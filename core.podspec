@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'core'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of core.'
+  s.summary          = 'test for seabank demo'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  a mode core layer for seabank
                        DESC
 
   s.homepage         = 'https://github.com/glve1027/core'
