@@ -7,17 +7,30 @@
 
 import Foundation
 
-class UBTHandler {}
-class APMSHandler {}
-class DATAPointHandler {}
-class RUNLoop {}
-
-class DemoCore {
-    let ubtHandler = UBTHandler()
-    let dataPointHandler = DATAPointHandler()
-    let apmsHandler = APMSHandler()
-    let run = RUNLoop()
-    func handleEvent() {
+public class UBTHandler {
+    public func wrap() -> [String: AnyObject]? {
+        return nil
+    }
+}
+public class APMSHandler {
+    public func wrap() -> [String: AnyObject]? {
+        return nil
+    }
+}
+public class DATAPointHandler {
+    public func wrap() -> [String: AnyObject]? {
+        return nil
+    }
+}
+public class RUNLoop {
+    public func startRun(_ block: () -> ()) {
         
     }
+}
+
+public class DemoCore {
+    public let ubtHandler = UBTHandler()
+    public let dataPointHandler = DATAPointHandler()
+    public let apmsHandler = APMSHandler()
+    public let run = RUNLoop()
 }
