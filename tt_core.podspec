@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'tt_core'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'test for seabank demo'
 
 # This description is used to generate tags and improve search results.

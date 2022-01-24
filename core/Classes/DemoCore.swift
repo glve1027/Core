@@ -33,4 +33,6 @@ public class DemoCore {
     public let dataPointHandler = DATAPointHandler()
     public let apmsHandler = APMSHandler()
     public let run = RUNLoop()
+    
+    public init() {}
 }
